@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musiclog</title>
+    <link href="http://fonts.cdnfonts.com/css/antro-vectra" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/jquery-3.2.1.min.js"></script>
+    <script defer src="./js/motion.js"></script>
+    <script defer src="js/sildebanner.js"></script>
+</head>
+<body>
+        <header class="header">
+            <!--햄버거버튼-->
+            <div>
+                <img src="./img/icon_hamberger.png" class="btn" alt="햄버거버튼">
+            </div>
+            <div onclick="history.back();" class="page_cover"></div>
+            <div id="menu">
+              <div onclick="history.back();" class="close">
+            <img src="./img/close.png" class="close" alt=""></div>
+              <div class="sidebar">
+                  <ul class="sidebar-nav">
+                      <li><div class="profile"></div></li>
+                      <li><div class="name">홍길동</div></li>
+                      <li><input class="login" type="button" value="회원로그인" onclick="location.href='login.html'"></li>
+                      <li><input class="login" type="button" value="블로거로그인" onclick="location.href='login.html'"></li>
+                      <hr class="line">
+                      <li class="sidebar-navst"><a href="#">홈</a></li>
+                      <li class="sidebar-navst"><a href="#">구독</a></li>
+                      <li class="sidebar-navst"><a href="#">설정</a></li>
+                      <li class="sidebar-navst"><a href="#">로그아웃</a></li>
+                  </ul>
+              </div>
+            </div>
+            <!--여기까지-->
+        <!--헤더 로고 , 검색 부분-->
+        <img src="./img/logo.png" class="logo" alt="로고">
+        <input type="text" class ="search" value="" placeholder="">
+        <img  class="search2" src="./img/icon_search.png" alt="검색">
+        </header>
+    </section>
+    <!-- 배너 부분  -->
+    <section class="banner">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext"><br>기분좋은 나른함을<br>위한 경쾌한 피아노<br>선율<br><br>by.rvnn</div>
+              <img src="./img/banner/banner1.png" style="width:100%">
+            </div> 
+            <div class="mySlides fade">
+              <div class="numbertext2"><br><br>록의 현재<br>록의 미래를 내다본다 !!<br><br>by.rvnn</div>
+              <img src="./img/banner/header2.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext3"><br><br>CyworldBGM2021<br>원슈타인 편<br><br>by.rnvv</div>
+              <img src="./img/banner/banner3.png" style="width:100%">
+            </div>
+            </div>
+            <br>
+            <div class="dothead" style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+        <!-- 여기까지 -->
+    </section>
+    <section>
+    <!--팔로우부분입니다-->
+    <!--backcircle부분이 이미지 넣는 태그 부분입니다.-->
+  <div class="backgray">
+      <div>
+      <p class="follow">Who to follow</p>
+    </div>
+    <div>
+      <p class="blog">추천 블로거</p>
+    </div>
+    <div class="backposition">
+  <div class="backwhite">
+    <div class="backcircle">
+      <p class="mat">닉네임</p>
+      <p class="mat_2">그들은 더운지라 충분히 사막이다. 
+        속에 뭇 미인을 열매를 이상 청춘은 끓는 청춘에서만 쓸쓸한 뿐이다.
+         보이는 싹이 내려온 위하여 부패뿐이다.</p>
+    </div>
+  </div>
+  <div class="backwhite">
+    <div class="backcircle">
+      <p class="mat">닉네임</p>
+      <p class="mat_2">소개글....</p>
+    </div>
+  </div>
+  <div class="backwhite">
+    <div class="backcircle">
+      <p class="mat">닉네임</p>
+      <p class="mat_2">소개글...</p>
+    </div>
+  </div>
+</div>
+<div class="backposition2">
+  <div class="backwhite2">
+    <div class="backcircle2">
+      <p class="mat">닉네임</p>
+      <p class="mat_2">소개글...</p>
+  </div>
+  </div>
+  <div class="backwhite2">
+    <div class="backcircle2">
+      <p class="mat">닉네임</p>
+      <p class="mat_2">소개글...</p>
+  </div>
+  </div>
+  <div class="backwhite2">
+    <div class="backcircle2">
+      <p class="mat">닉네임</p>
+      <p class="mat_2">소개글...</p>
+  </div>
+  </div>
+</div>
+</div>
+    </section>
+    <section>
+      <div>
+        <p class="follow2">articles</p>
+      </div>
+    </section>
+
+</body>
+
+</html>
